@@ -34,3 +34,7 @@ grd.addColorStop(0.8, "white");
 
 ctx.fillStyle = grd;
 ctx.fillRect(0,200,600,400);
+
+// Text
+ctx.font = "110px Arial";
+ctx.fillText("Hello World", 16, 200);
